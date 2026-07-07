@@ -12,11 +12,7 @@ public class AccountController {
     @GetMapping("/accounts/{number}")
     public Account getAccount(@PathVariable String number) {
 
-        return new Account(
-                number,
-                "savings",
-                234343
-        );
+        return new Account(number,"Savings",587920);
     }
 
 }

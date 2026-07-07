@@ -13,10 +13,10 @@ public class LoanController {
 
         return new Loan(
                 number,
-                "car",
-                400000,
-                3258,
-                18
+                "Education",
+                800000,
+                8500,
+                120
         );
     }
 }
